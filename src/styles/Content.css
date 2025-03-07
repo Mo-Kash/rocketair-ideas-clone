@@ -33,3 +33,20 @@
 .idea-card:hover img{
     transform: scale(1.1);
 }
+
+@media (max-width: 1024px) {
+    .content {
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 'idea-card idea-card';
+    }
+}
+
+@media (max-width: 768px) {
+    .content {
+        grid-template-columns: 1fr;
+        grid-template-areas: 'idea-card';
+    }
+    .text-wrapper {
+        height: auto;
+    }
+}

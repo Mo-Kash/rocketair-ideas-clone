@@ -178,3 +178,42 @@
     color: black;
     cursor: pointer;
 }
+
+@media (max-width: 1024px) {
+    .footer {
+        flex-direction: column;
+        align-items: center;
+    }
+    .left, .right {
+        height: auto;
+        width: 100%;
+        align-items: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .work, .about, .services, .verticals, .careers, .ideas, .news, .contact-us, .socials {
+        height: auto;
+        padding: 15px;
+    }
+    .work p, .about p, .services p, .verticals p, .careers p, .ideas p, .news p, .contact-us p {
+        font-size: 3vw;
+    }
+    .image img {
+        width: 30vw;
+        height: 30vw;
+    }
+}
+
+@media (max-width: 480px) {
+    .contact {
+        width: 80%;
+    }
+    .contact input {
+        font-size: 1rem;
+    }
+    .contact button {
+        font-size: 16px;
+        padding: 8px 16px;
+    }
+}
