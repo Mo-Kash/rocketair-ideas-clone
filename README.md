@@ -1,5 +1,5 @@
 # RocketAir Ideas page clone using ReactJS
-Made for IEEE-CS Web Domain's task.
+Made for IEEE-CS Web (Frontend) Domain's task.
 [Level completed: 1]
 
 ## Features:
